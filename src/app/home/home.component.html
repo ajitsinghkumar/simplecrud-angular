@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let d of datalist">
+          <td>{{d.firstname}}</td>
+          <td>{{d.lastname}}</td>
+          <td>{{d.email}}</td>
+          <td><button class="btn btn-primary" [routerLink]="['/update',d.id]">Update</button></td>
+         <td><button class="btn btn-danger" (click)="deltedetails(d.id);">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>

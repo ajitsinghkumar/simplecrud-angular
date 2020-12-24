@@ -1,0 +1,22 @@
+{
+  "details": [
+    {
+      "firstname": "omprakash",
+      "lastname": "singh",
+      "email": "omprakash@gmail.com",
+      "id": 4
+    },
+    {
+      "firstname": "bbb",
+      "lastname": "cccc",
+      "email": "interviewajit@gmail.com",
+      "id": 5
+    },
+    {
+      "firstname": "Ajit",
+      "lastname": "singh",
+      "email": "kumarsingh15ca05@gmail.com",
+      "id": 6
+    }
+  ]
+}
